@@ -1,0 +1,29 @@
+module.exports=
+{
+    "sme":[
+        "/clientinfo","/getProjects","/rfians",
+    ],
+    "performancehead":[
+        "/configDetails","/configUpdate","/configCheck","/clientinfo","/getProjects",
+        "/updateclientinfo","/rfians","/displaySMEinfo","/updateprojectstatus","/allSME",
+        "/assignSME","/createTester","/deleteTester","/signoff"
+    ],
+    "performancelead":[
+        "/configDetails","/configUpdate","/configCheck", "/clientinfo","/getProjects","/updateclientinfo",
+        "/rfians","/displaySMEinfo","/updateprojectstatus","/allSME","/assignSME","/createTester","/deleteTester",
+        "/signoff"
+    ],
+    "manager":[
+        "/clientinfo","/getProjects","/updateclientinfo","/rfians","/updaterfians","/changeRFIFile",
+        "/downloadRFIImage"
+    ],
+    "guest":[
+        "/clientinfo","/getProjects","/updateclientinfo","/rfians","/updaterfians","/changeRFIFile",
+        "/downloadRFIImage"
+    ],
+    "admin":[
+        "/configDetails","/configUpdate","/configCheck","/clientinfo","/getProjects","/updateclientinfo","/rfians",
+        "/displaySMEinfo","/updateprojectstatus","/allSME","/assignSME","/createTester","/deleteTester","/signoff",
+        "/updaterfians","/changeRFIFile","/downloadRFIImage","/getPHandPL"
+    ]
+}
